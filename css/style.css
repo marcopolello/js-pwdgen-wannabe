@@ -1,0 +1,52 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(https://image.freepik.com/free-photo/open-laptop-with-blank-white-screen-white-desk-against-black-wooden-backdrop_23-2147979109.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+}
+
+main{
+  /* debug */
+  /* background-color: yellow;
+  width: 100%; */
+  /* debug */
+  min-height: 66%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: nowrap;
+}
+div{
+  text-align: center;
+  align-self: flex-end;
+  /* debug */
+  background-color: inherit;
+  height: 380px;
+  width: 600px;
+  /* debug */
+}
+h1{
+  font-size: 40px;
+  color: red;
+}
+p{
+  margin: 15px 0;
+  font-size: 20px;
+  font-style: italic;
+}
+ul li{
+  display: inline-block;
+  margin: 10px;
+}
+a{
+  font-size: 50px;
+  color: black;
+}
