@@ -19,3 +19,9 @@ console.log(colore);
 
 //risultato finale pw
 document.getElementById("pwgen").innerHTML = "la password generata per te è la seguente: " + nome + cognome + colore + numero;
+
+// chiedere la mail dell'utente
+var mail = prompt("scrivi la tua mail");
+console.log(mail);
+
+document.getElementById('usermail').innerHTML = "intanto invieremo la password appena generata al seguente indirizzo di posta elettronica: " + mail;

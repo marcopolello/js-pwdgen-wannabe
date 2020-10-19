@@ -36,11 +36,13 @@ div{
 h1{
   font-size: 40px;
   color: red;
+  overflow: hidden;
 }
 p{
-  margin: 15px 0;
+  margin: 10px 0;
   font-size: 20px;
   font-style: italic;
+  overflow: hidden;
 }
 ul li{
   display: inline-block;
